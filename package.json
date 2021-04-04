@@ -1,0 +1,35 @@
+{
+  "name": "quark2d-fluid",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fominvic81/Quark2d-fluid"
+  },
+  "author": "fominvic81 <fomin.vic81@gmail.com>",
+  "description": "2d javascript fluid simulation",
+  "license": "MIT",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "keywords": [
+    "javascript",
+    "particles",
+    "physics",
+    "simulation",
+    "fluid",
+    "quark2d"
+  ],
+  "scripts": {
+    "serve": "tsc-watch"
+  },
+  "devDependencies": {
+    "ts-loader": "8.0.14",
+    "tsc-watch": "^4.2.9",
+    "typescript": "4.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "pixi.js": "^6.0.1"
+  }
+}
